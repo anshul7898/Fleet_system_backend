@@ -25,7 +25,7 @@ AWS_ACCESS_KEY_ID = os.getenv("AWS_ACCESS_KEY_ID")
 AWS_SECRET_ACCESS_KEY = os.getenv("AWS_SECRET_ACCESS_KEY")
 TABLE_NAME = os.getenv("DYNAMO_TABLE_NAME")
 
-# Initialize DynamoDB
+# Initialize DynamoDB AWS
 dynamodb = boto3.resource(
     "dynamodb",
     region_name=AWS_REGION,
