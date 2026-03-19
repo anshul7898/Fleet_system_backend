@@ -1,0 +1,26 @@
+# Created by venv; see https://docs.python.org/3/library/venv.html
+# Environment variables
+.env
+.env.local
+.env*.local
+
+# AWS credentials
+aws_credentials
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+dist/
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/
+*.swp
